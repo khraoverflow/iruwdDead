@@ -1,0 +1,8 @@
+C:\Users\brahmi\source\repos\iruwdWin7\iruwd7\bin\Debug\iruwd7.exe
+C:\Users\brahmi\source\repos\iruwdWin7\iruwd7\bin\Debug\iruwd7.pdb
+C:\Users\brahmi\source\repos\iruwdWin7\iruwd7\obj\Debug\iruwd7.csprojAssemblyReference.cache
+C:\Users\brahmi\source\repos\iruwdWin7\iruwd7\obj\Debug\iruwd7.Form1.resources
+C:\Users\brahmi\source\repos\iruwdWin7\iruwd7\obj\Debug\iruwd7.Properties.Resources.resources
+C:\Users\brahmi\source\repos\iruwdWin7\iruwd7\obj\Debug\iruwd7.csproj.GenerateResource.cache
+C:\Users\brahmi\source\repos\iruwdWin7\iruwd7\obj\Debug\iruwd7.exe
+C:\Users\brahmi\source\repos\iruwdWin7\iruwd7\obj\Debug\iruwd7.pdb

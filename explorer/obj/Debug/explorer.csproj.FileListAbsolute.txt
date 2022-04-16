@@ -1,0 +1,9 @@
+C:\Users\brahmi\source\repos\explorer\bin\Debug\explorer.exe.config
+C:\Users\brahmi\source\repos\explorer\bin\Debug\explorer.exe
+C:\Users\brahmi\source\repos\explorer\bin\Debug\explorer.pdb
+C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.csprojAssemblyReference.cache
+C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.Form1.resources
+C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.Properties.Resources.resources
+C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.csproj.GenerateResource.cache
+C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.exe
+C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.pdb
