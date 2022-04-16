@@ -17,3 +17,5 @@ C:\Users\brahmi\source\repos\DeadV\iruwd7\obj\Release\iruwd7.csproj.GenerateReso
 C:\Users\brahmi\source\repos\DeadV\iruwd7\obj\Release\iruwd7.csproj.CoreCompileInputs.cache
 C:\Users\brahmi\source\repos\DeadV\iruwd7\obj\Release\iruwd7.exe
 C:\Users\brahmi\source\repos\DeadV\iruwd7\obj\Release\iruwd7.pdb
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.exe
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.pdb
