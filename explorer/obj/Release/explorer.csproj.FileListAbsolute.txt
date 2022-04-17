@@ -17,3 +17,13 @@ C:\Users\brahmi\source\repos\DeadV\explorer\obj\Release\explorer.csproj.CoreComp
 C:\Users\brahmi\source\repos\DeadV\explorer\obj\Release\explorer.exe
 C:\Users\brahmi\source\repos\DeadV\explorer\obj\Release\explorer.pdb
 C:\Users\brahmi\source\repos\DeadV\explorer\obj\Release\explorer.csproj.AssemblyReference.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\bin\Release\explorer.exe.config
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\bin\Release\explorer.exe
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\bin\Release\explorer.pdb
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Release\explorer.csproj.AssemblyReference.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Release\explorer.Form1.resources
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Release\explorer.Properties.Resources.resources
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Release\explorer.csproj.GenerateResource.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Release\explorer.csproj.CoreCompileInputs.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Release\explorer.exe
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Release\explorer.pdb

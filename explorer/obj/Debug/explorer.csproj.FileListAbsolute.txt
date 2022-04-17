@@ -7,3 +7,13 @@ C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.Properties.Resources.re
 C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.csproj.GenerateResource.cache
 C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.exe
 C:\Users\brahmi\source\repos\explorer\obj\Debug\explorer.pdb
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\bin\Debug\explorer.exe.config
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\bin\Debug\explorer.exe
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\bin\Debug\explorer.pdb
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Debug\explorer.csproj.AssemblyReference.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Debug\explorer.Form1.resources
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Debug\explorer.Properties.Resources.resources
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Debug\explorer.csproj.GenerateResource.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Debug\explorer.csproj.CoreCompileInputs.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Debug\explorer.exe
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\explorer\obj\Debug\explorer.pdb
