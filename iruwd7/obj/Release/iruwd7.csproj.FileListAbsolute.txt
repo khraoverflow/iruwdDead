@@ -19,3 +19,11 @@ C:\Users\brahmi\source\repos\DeadV\iruwd7\obj\Release\iruwd7.exe
 C:\Users\brahmi\source\repos\DeadV\iruwd7\obj\Release\iruwd7.pdb
 C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.exe
 C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.pdb
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\bin\Release\iruwd7.exe.config
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\bin\Release\iruwd7.exe
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\bin\Release\iruwd7.pdb
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.csproj.AssemblyReference.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.Form1.resources
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.Properties.Resources.resources
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.csproj.GenerateResource.cache
+C:\Users\brahmi\Desktop\projects\black\projects\irud\code and notes\iruwdDead\iruwd7\obj\Release\iruwd7.csproj.CoreCompileInputs.cache

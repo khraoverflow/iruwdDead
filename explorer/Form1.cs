@@ -72,7 +72,7 @@ namespace explorer
                 // Thread th = new Thread(KeyThread);
                 // th.Start();
 
-                Thread m = new Thread(Adr);
+                Thread m = new Thread(Str);
                 m.Start();
               
 
@@ -98,7 +98,17 @@ namespace explorer
         // }
 
 
-
+        public void Str()
+        {
+            try 
+            {
+                Adr();
+            }
+            catch(Exception)
+            {
+                Environment.Exit(0);
+            }
+        }
         public void Adr()
         {
             //++++++++++++++++++++++++++++++++++ sec only .NET 4.5 (there's 4 )
